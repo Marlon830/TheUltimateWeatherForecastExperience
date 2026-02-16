@@ -14,6 +14,9 @@ The Ultimate Weather Forecast Experience is a virtual reality (VR) application d
 ## Movement Method
 The chosen method of movement within the VR environment is **teleportation**. This method ensures a comfortable and intuitive navigation experience, minimizing motion sickness for users.
 
+## Interaction Method
+The interaction method implemented in the project is **Grab Interactable** object (the sphere) with a **Direct Interactor**. User can grab the sphere and rotate it from right to left and from left to right with both hands, the sphere will rotate but not move.
+
 ## Requirements
 - Unity 2021.3 or later.
 - A VR headset compatible with Unity XR (e.g., Oculus, HTC Vive, etc.).

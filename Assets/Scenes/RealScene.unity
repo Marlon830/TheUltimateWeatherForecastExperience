@@ -2509,14 +2509,14 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
-  m_HitClosestOnly: 0
+  m_HitClosestOnly: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 3
   m_EnableUIInteraction: 1
   m_BlockInteractionsWithScreenSpaceUI: 0
-  m_BlockUIOnInteractableSelection: 1
+  m_BlockUIOnInteractableSelection: 0
   m_ManipulateAttachTransform: 1
   m_UseForceGrab: 0
   m_RotateSpeed: 180
@@ -2553,8 +2553,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 929281060}
-    m_InputActionReferenceValue: {fileID: 168854045}
+    m_InputActionReferencePerformed: {fileID: 403659874}
+    m_InputActionReferenceValue: {fileID: 845614238}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
     m_ManualValue: 0
@@ -2692,7 +2692,7 @@ MonoBehaviour:
   m_LineWidth: 0.005
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
-  m_AutoAdjustLineLength: 0
+  m_AutoAdjustLineLength: 1
   m_MinLineLength: 0.5
   m_UseDistanceToHitAsMaxLineLength: 1
   m_LineRetractionDelay: 0.5
@@ -2853,7 +2853,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
